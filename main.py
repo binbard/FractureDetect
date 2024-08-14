@@ -16,7 +16,7 @@ if uploaded_file is not None:
 
     image_np = np.array(image)
 
-    if st.button('Detect Objects'):
+    if st.button('Analyze'):
         with st.spinner('Detecting...'):
             results = model.predict(source=image_np, conf=0.25)
 
