@@ -1,1 +1,2 @@
 ultralytics==8.0.196
+reportlib==3.4.0
